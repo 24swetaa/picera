@@ -1,0 +1,45 @@
+{% extends 'photos/base.html' %} 
+{% load static %}
+{% block content %} 
+  <div class="bg-light py-5">
+    <div class="container py-5">
+      <div class="row mb-4">
+        <div class="col-lg-5">
+         <a href="{% url 'gallery' %}" class="btn btn-dark my-3">Go Back</a>
+          <h2 class="display-4 font-weight-light">Our team</h2>
+          <p class="font-italic text-muted">Hey there, we created this webapp to store your beautiful photography!</p>
+        </div>
+      </div>
+  
+      <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'images/vishwa.jpg' %}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Sadula Vishwa</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+            <h7>sadula.vishwa.cse20@itbhu.ac.in</h7>
+          </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4"><img src="{% static 'images/sweta.jpg' %}" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+            <h5 class="mb-0">Sweta Singh</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+            <h7>sweta.singh.cse20@itbhu.ac.in</h7>
+          </div>
+        </div>
+        <!-- End-->
+  
+        
+  
+        
+  
+      </div>
+    </div>
+  </div>
+  
+
+   {% endblock %} 
+    
+{% comment %} </body>
+</html> {% endcomment %}

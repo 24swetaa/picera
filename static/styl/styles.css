@@ -1,0 +1,133 @@
+body
+{
+    background-color: white;
+}
+.image-thumbnail{
+    background-color: white;
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbaro
+{
+    height: 110px;
+    
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+
+.cat-list
+{
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    transition-duration: 0.4s;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #f38ba0;
+    font-size: 15px;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 3px;
+    border: 3px solid #f38ba0;
+    font-weight: 600;
+  }
+  
+  .button:hover {
+    background-color: #F38BA0;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 3px solid white;
+  }
+  .body_div {
+    background: #ff5f6d ;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371) ;
+    background: linear-gradient(to right, #ff5f6d, #ffc371) ;
+    min-height: 100vh;
+  }
+  
+  #button-addon1 {
+    color: #ffc371;
+  }
+  
+  i {
+    color: #ffc371;
+  }
+  
+  .form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  .form-control.shadow-0:focus {
+    box-shadow: none;
+  }
+
+  /*feedback*/
+
+  .gradient-brand-color {
+    background-image: -webkit-linear-gradient(0deg, #B5EAEA 0%, #27dfdf 100%);
+    background-image: -ms-linear-gradient(0deg, #FFBCBC 0%, #e28686 100%);
+    color: rgb(14, 13, 13);
+}
+.contact-info__wrapper {
+    overflow: hidden;
+    border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+    .contact-info__wrapper {
+        border-radius: 0 .625rem .625rem 0;
+        padding: 5rem !important
+    }
+}
+.contact-info__list span.position-absolute {
+    left: 0
+}
+.z-index-101 {
+    z-index: 101;
+}
+.list-style--none {
+    list-style: none;
+}
+.contact__wrapper {
+    background-color: #fff;
+    border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+    .contact__wrapper {
+        border-radius: .625rem 0 .625rem .625rem
+    }
+}
+@media (min-width: 1024px) {
+    .contact-form__wrapper {
+        padding: 5rem !important
+    }
+} 
+
+.shadow-lg,.shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem #B5EAEA !important;
+}
+
+.gall-card
+{
+    transition-duration: 0.4s;
+}
+
+  .gall-card:hover {
+    box-shadow: 0 5px 20px 0px #d3d3d3;
+  }
+
+   .gall-sidenav{
+     background: linear-gradient(to right, #2c2c2c, #000000) ;
+  } 
+
+  
+  
+ 

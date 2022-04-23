@@ -15,3 +15,13 @@ class Photo(models.Model):
 
     def __str__(self):
         return self.description
+
+class Feedback(models.Model):
+    First_Name = models.CharField(max_length = 120)
+    Last_Name = models.CharField(max_length = 120)
+    Email = models.EmailField()
+    Phone_Number = models.IntegerField()
+    Help = models.TextField()
+
+    def __str__(self):
+        return self.First_Name
